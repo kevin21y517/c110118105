@@ -21,3 +21,4 @@ print(s)
 var s = "JavaScript syntax hightlighting";
 alert(s);
 ```
+---
