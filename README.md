@@ -5,4 +5,4 @@
 ##### c110118105
 ###### c110118105
 
-![OpenAI Logo](https://www.nkust.edu.tw/index.php)
+![OpenAI Logo](C:\Users\kevin\Desktop\高科.png)
