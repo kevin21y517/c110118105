@@ -5,4 +5,4 @@
 ##### c110118105
 ###### c110118105
 
-![OpenAI Logo](C:\Users\kevin\Desktop\高科.png)
+![替代文本](C:\Users\kevin\Desktop\高科.png)
