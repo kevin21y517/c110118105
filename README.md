@@ -25,7 +25,7 @@ alert(s);
 ---
 
 Emphasis, aka italics, with asterisks or _underscores_.
-Strong emphasis, aka bold, with **asterisks** or *underscores*.
+Strong emphasis, aka bold, with **asterisks** or ***underscores***  .
 Combined emphasis with **asterisks and underscores**.
 Strikethrough uses two tildes. ~~Scratch this.~~
 
@@ -44,7 +44,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 表格:
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
+| `col 3 is     ` | some wordy text | $1600 |
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
 |test | 測試        |   $3333 |
