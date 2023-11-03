@@ -1,0 +1,42 @@
+#include <iostream>
+#include <string>
+
+class CShape {
+public:
+    CShape(std::string color) : color(color) {}
+    virtual double GetArea() const = 0;
+
+protected:
+    std::string color;
+};
+
+class CTriangle : public CShape {
+public:
+    CTriangle(double a, double b, double c, std::string color)
+        : CShape(color), a(a), b(b), c(c) {}
+
+    double GetArea() const {
+        // 计算三角形的面积
+        double s = (a + b + c) / 2.0;
+        return 0.5 * a * b;
+    }
+
+private:
+    double a;
+    double b;
+    double c;
+};
+
+int main() {
+    double a = 3.0;
+    double b = 4.0;
+    double c = 5.0;
+    std::string color = "红色";
+
+    CTriangle triangle(a, b, c, color);
+
+    std::cout << "三角形的颜色: " << triangle.color << std::endl;
+    std::cout << "三角形的面积: " << triangle.GetArea() << std::endl;
+
+    return 0;
+}
